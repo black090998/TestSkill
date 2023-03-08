@@ -1,0 +1,9 @@
+def find_middle_letter(first_letter, last_letter):
+    alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    first_index = alphabet.index(first_letter)
+    last_index = alphabet.index(last_letter)
+    middle_index = (first_index + last_index) // 2
+    if (first_index + last_index) % 2 == 0:
+        return alphabet[middle_index]
+    else:
+        return alphabet[middle_index] + alphabet[middle_index + 1]

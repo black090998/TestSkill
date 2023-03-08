@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mini-app-ip",
+  "private_key_id": "7367266ca5fafe948e869c75150edd61592da982",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCm1hZcTctHUNqJ\n3GXrJHjvV2PArJTsdwE+2XVS6r8QQXOgJtIJgLwlwOmKvjynYI8sSOEdxqJ7zypl\neHifRpFiV8vsPeT+g4g16NZ28wypfKb3sqdACLuOJaweywEx/ElD/gGkbp0uP2TT\nYKT74hNykGSHdSrK2fHvYbM44KfpTqbZGYtkTTWFR0JJjj2c8zvI7xYLGA/blnBS\n8CJ/2cobIWEIv5PKkbrS/HgNhDU7mA9JpCNM6bstQOvTMj+wLC59hyjaQSLfBi2w\nrWv1qWmsIwzgKt51P2kr8kfczaRc+J2Cab2Xk5S89u0XoMa0jiSEj69KwWqGyeVN\n5aK0t93rAgMBAAECggEANKmZb1ODGiTUhvXSGhJuNiagrz4K2EWMWBluZlkBLJFs\nfR4j6KoBOe2WCpyYKsFZEEKFBNAhk/FF0bfgY250D9Xk4dJ7yTcdtN6la/C2i310\nevWiw5y+D1Wm6iVsYCnhupugSxY7eVC7c9mq2nN3bg9UHEoI0vVO4CA34XlQp10Q\nPUrPcnHdeLZrKmqN2oji1CRqadJUME9hWUtmau52S4Z036J+4Grzr8m7eSIlVBXK\nE05qWoz8Pf0DzBBXcERAIMNK1UgnJgSb/Wr5a//ZquqKt+l7i/uJj7phP0V+2msa\nrTtSxJl3ymDB4OXLeVVK3XBXqskudpq/4sTWMA/n4QKBgQDkloBDq1WmMSsJFMt3\nukYhkg8lLzP7qdSlx4kJEW8hySOeu+1rutYqoL/9esUqezrOdzHR4rfIRfu2JYue\nj+MMpHhv4ykUrSSlb14kdhfHa16XAwiC+/KjlE/dTU/zKyxxF3QpMlvznQyM94un\nVaIDXABPVC53O0DkbQ7g3q4mUQKBgQC619ogw1usjQxyatrml12Z9dduslOmqxxe\nEevWGGM9+5SK3yZZYGgq2U4MRveKSNVcufApres6jfUVsCx1PLPMlaI8kL286gwt\nFrc0s32dhCvIfExHItXUagiYpicUG7vM4RcdnzDeLAxtl/AK7QOdW0HuaMi3YNrC\nKwrYADXlewKBgGk7B40fYOyDEga6NfjGHebycFpz4oBmbGhs9R7hkcGB8Q3wAZpo\nhpNVMU0lqYKm/Cl0IdE3h9eAsCHoIuA56RI23OLVNmI4Wvh1zmcGnmfFe+QVF2QF\nTGwVqLZ+EuIk6+6cF3OnpUD++Xojs3yzJURapCHg5QsqkfMWaZUHrjAhAoGBAJ+4\n1icb2cpv6SwGXIqy6rkqh7eBijD4JY/lEg47WtsprZnpmQbeey3mBepI4GO+T2at\nLLj0jBnKMLERoW+3LJy/bakIsqpECZShzoumxMNasXL5jttg1Bp5ak/T+aQe8TP7\nV59i7ot+bEFjmTg91NE3qez8dlkM2vURhnuP8oLxAoGBALrs5Gdgzc2hvhTpWO9P\noa8YgLpCiC6GmD+ly58NiMNuL7OrzKHmFzCllcBmurPHSdthmOpqxey6N7vs4v5z\nOOet23iR/4Hk0v47lgxKhz8L2dSNWHbQHMG6HkWFF6rdo02g28JU+eUDZEW3QrRu\ny9KI2wkwWHKY4ESzCaaG6q+s\n-----END PRIVATE KEY-----\n",
+  "client_email": "logauth@mini-app-ip.iam.gserviceaccount.com",
+  "client_id": "110848509402125959128",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/logauth%40mini-app-ip.iam.gserviceaccount.com"
+}

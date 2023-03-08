@@ -1,0 +1,10 @@
+const purchasesByAnnis = data.filter((order) => {
+  return order.customer.name === 'Annis';
+}).reduce((total, order) => {
+  const totalPrice = order.items.reduce((acc, item) => {
+    return acc + (item.qty * item.price);
+  }, 0);
+  return total + totalPrice;
+}, 0);
+
+console.log(purchasesByAnnis);

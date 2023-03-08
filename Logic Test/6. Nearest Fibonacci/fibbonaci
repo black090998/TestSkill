@@ -1,0 +1,33 @@
+import sys
+
+
+def get_fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return get_fibonacci(n-1) + get_fibonacci(n-2)
+
+
+def get_nearest_fibonacci(num):
+    prev_fib = 0
+    curr_fib = 1
+    next_fib = prev_fib + curr_fib
+    while next_fib < num:
+        prev_fib = curr_fib
+        curr_fib = next_fib
+        next_fib = prev_fib + curr_fib
+    if abs(num - curr_fib) < abs(next_fib - num):
+        return curr_fib
+    else:
+        return next_fib
+
+# fungsi nearest Fibonacci 
+def find_nearest_fibonacci(arr):
+    total_sum = sum(arr)
+    fibonacci_num = get_nearest_fibonacci(total_sum)
+    return abs(total_sum - fibonacci_num)
+
+#conth
+arr = [15, 1, 3]
+result = find_nearest_fibonacci(arr)
+print(result)

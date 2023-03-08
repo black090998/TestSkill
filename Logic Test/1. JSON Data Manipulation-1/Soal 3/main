@@ -1,0 +1,2 @@
+// menemukan total tertinggi 300000
+const customersWithHighPurchases = data.reduce

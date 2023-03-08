@@ -1,0 +1,16 @@
+import json
+
+# load the JSON data
+with open('inventory.json', 'r') as f:
+    inventory = json.load(f)
+
+# find all items with brown color
+brown_items = []
+for item in inventory:
+    if 'brown' in item['tags']:
+        brown_items.append(item)
+
+# print the results
+print("Items with brown color:")
+for item in brown_items:
+    print(item['name'])
