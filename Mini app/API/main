@@ -1,0 +1,23 @@
+const API_URL = 'https://pokeapi.co/api/v2/pokemon';
+
+async function fetchPokemon() {
+  try {
+    const response = await fetch(API_URL);
+    const data = await response.json();
+    return data.results;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+async function displayPokemon() {
+  const pokemonList = await fetchPokemon();
+  const pokemonElement = document.getElementById('pokemon');
+  pokemonList.forEach(pokemon => {
+    const listItem = document.createElement('li');
+    listItem.textContent = pokemon.name;
+    pokemonElement.appendChild(listItem);
+  });
+}
+
+displayPokemon();

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pokemon API Example</title>
+  </head>
+  <body>
+    <h1>Pokemon API Example</h1>
+    <div id="pokemon"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
